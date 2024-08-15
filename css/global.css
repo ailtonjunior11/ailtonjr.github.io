@@ -156,8 +156,6 @@ p:not(:last-of-type),
 .li-3,
 .li-4,
 .skills__item,
-.about__right,
-.about__left,
 .header__image,
 .header__left {
   visibility: hidden;

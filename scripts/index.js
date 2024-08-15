@@ -26,18 +26,6 @@ sr.reveal(".header__image", {
   origin: "top",
 });
 
-sr.reveal(".about__left", {
-  distance: "70px",
-  origin: "left",
-  duration: 1800,
-});
-
-sr.reveal(".about__right", {
-  distance: "70px",
-  origin: "right",
-  duration: 2000,
-});
-
 sr.reveal(".li-1", {
   rotate: {
     x: 0,
@@ -45,6 +33,7 @@ sr.reveal(".li-1", {
     z: 0,
   },
   duration: 1600,
+  delay: 300,
 });
 
 sr.reveal(".li-2", {
@@ -54,6 +43,7 @@ sr.reveal(".li-2", {
     z: 0,
   },
   duration: 1600,
+  delay: 700,
 });
 
 sr.reveal(".li-3", {
@@ -63,6 +53,7 @@ sr.reveal(".li-3", {
     z: 0,
   },
   duration: 1600,
+  delay: 900,
 });
 
 sr.reveal(".li-4", {
@@ -72,6 +63,7 @@ sr.reveal(".li-4", {
     z: 0,
   },
   duration: 1600,
+  delay: 1100,
 });
 
 sr.reveal(".skills__item", {
