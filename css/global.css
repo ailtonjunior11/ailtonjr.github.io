@@ -13,6 +13,7 @@ html {
 body {
   font-size: 1.6rem;
   margin-top: 15rem;
+  background-color: var(--light-tertiary-color);
   /* transition: background 0.2s linear; */
 }
 
@@ -148,6 +149,18 @@ p:not(:last-of-type),
 
 .mb-x1 {
   margin-bottom: 6rem;
+}
+
+.li-1,
+.li-2,
+.li-3,
+.li-4,
+.skills__item,
+.about__right,
+.about__left,
+.header__image,
+.header__left {
+  visibility: hidden;
 }
 
 @media only screen and (max-width: 1024px) {

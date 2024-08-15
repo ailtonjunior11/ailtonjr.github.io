@@ -29,6 +29,8 @@
   min-width: 40rem;
   max-width: 47rem;
   height: auto;
+  border-radius: 1rem;
+  box-shadow: 0 0 0.5rem var(--black);
 }
 
 .projects ul li .projects__info {
@@ -42,8 +44,9 @@
 .projects ul li .projects__info a {
   font-weight: 600;
   background-color: var(--tertiary-color);
+  color: var(--white);
   padding: 0.7rem;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
 
 .projects ul li .projects__info a.link {
