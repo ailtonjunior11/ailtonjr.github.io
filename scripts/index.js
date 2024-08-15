@@ -27,24 +27,52 @@ sr.reveal(".header__image", {
 });
 
 sr.reveal(".about__left", {
-  distance: "100px",
+  distance: "70px",
   origin: "left",
   duration: 1800,
 });
 
 sr.reveal(".about__right", {
-  distance: "100px",
+  distance: "70px",
   origin: "right",
   duration: 2000,
 });
 
-sr.reveal(".li-1", { distance: "300px", origin: "left", duration: 1500 });
+sr.reveal(".li-1", {
+  rotate: {
+    x: 0,
+    y: 80,
+    z: 0,
+  },
+  duration: 1600,
+});
 
-sr.reveal(".li-2", { distance: "300px", origin: "right", duration: 1700 });
+sr.reveal(".li-2", {
+  rotate: {
+    x: 0,
+    y: 80,
+    z: 0,
+  },
+  duration: 1600,
+});
 
-sr.reveal(".li-3", { distance: "300px", origin: "left", duration: 1900 });
+sr.reveal(".li-3", {
+  rotate: {
+    x: 0,
+    y: 80,
+    z: 0,
+  },
+  duration: 1600,
+});
 
-sr.reveal(".li-4", { distance: "300px", origin: "right", duration: 2100 });
+sr.reveal(".li-4", {
+  rotate: {
+    x: 0,
+    y: 80,
+    z: 0,
+  },
+  duration: 1600,
+});
 
 sr.reveal(".skills__item", {
   distance: "100px",
