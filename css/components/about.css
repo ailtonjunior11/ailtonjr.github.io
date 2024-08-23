@@ -14,17 +14,20 @@
   margin: 1rem 0 2rem;
 }
 
-.about .about__left ul {
-  margin-left: -1.2rem;
-}
-
 .about .about__left ul li {
   display: inline-block;
 }
 
 .about .about__left ul li a {
   display: inline-block;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+}
+
+.about .about__left ul li img {
+  margin-top: 0.2rem;
 }
 
 .about .about__left ul li a img:hover {
@@ -50,5 +53,9 @@
 
   .about .about__right {
     text-align: center;
+  }
+
+  .about .about__left ul li a {
+    padding: 0.5rem 0.8rem;
   }
 }

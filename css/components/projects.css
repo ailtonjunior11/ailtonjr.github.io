@@ -43,7 +43,7 @@
 
 .projects ul li .projects__info a {
   font-weight: 600;
-  background-color: var(--tertiary-color);
+  background-color: var(--secondary-color);
   color: var(--white);
   padding: 0.7rem;
   border-radius: 0.5rem;

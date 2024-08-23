@@ -1,15 +1,8 @@
 :root {
   --white: #ffffff;
-  --gray: #d9d9d9;
   --black: #000000;
-  --sun-color: #f39c12;
-  --primary-color: #02073e;
-  --secondary-color: #0f2137;
-  --dark-secondary-color: #3c415c;
-  --dark-secondary-color2: #7483da50;
-  --tertiary-color: #6e79ab;
-  --light-tertiary-color: #fdfdfd;
-  --text-color: #343d48;
+  --primary-color: #04ffda;
+  --secondary-color: #0ed5b7;
 
-  --font-family: "DM Sans", sans-serif;
+  --font-family: "Ubuntu", sans-serif;
 }

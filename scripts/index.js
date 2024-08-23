@@ -63,11 +63,11 @@ sr.reveal(".li-4", {
     z: 0,
   },
   duration: 1600,
-  delay: 1100,
+  delay: 1000,
 });
 
 sr.reveal(".skills__item", {
-  distance: "100px",
+  distance: "90px",
   origin: "bottom",
-  duration: 3000,
+  duration: 2000,
 });
