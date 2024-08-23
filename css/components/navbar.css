@@ -20,7 +20,7 @@
 }
 
 .navbar .navbar__content {
-  padding: 3rem 4rem 1rem;
+  padding: 2rem 4rem;
   display: flex;
   justify-content: space-between;
 }
@@ -36,6 +36,7 @@
 .navbar .navbar__content .navbar__links a {
   padding: 1rem;
   display: inline-block;
+  font-size: 1.8rem;
   color: var(--secondary-color);
 }
 
