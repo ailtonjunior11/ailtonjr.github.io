@@ -7,6 +7,10 @@
   background-color: var(--black);
 }
 
+.navbar .navbar__content a {
+  cursor: default;
+}
+
 .navbar .navbar__content a h2 {
   color: var(--secondary-color);
 }
@@ -45,15 +49,11 @@
 }
 
 .navbar.active {
-  box-shadow: 0 0.2rem 0.5rem #04ffd932;
+  box-shadow: 0 0.2rem 3rem #04ffd92a;
 }
 
 .navbar .navbar__content .navbar__mobile a {
   color: var(--secondary-color);
-}
-
-.navbar .navbar__content .navbar__mobile img {
-  background-color: var(--secondary-color);
 }
 
 .navbar .navbar__content .navbar__mobile,
@@ -85,8 +85,8 @@
     position: absolute;
     top: 98%;
     left: 0;
-    padding: 1rem 0;
-    box-shadow: 0 0.4rem 0.5rem #04ffd940;
+    padding: 5rem 0;
+    box-shadow: 0 0.1rem 1rem #04ffd934;
     z-index: 1;
   }
 
@@ -95,7 +95,8 @@
   }
 
   .navbar .navbar__content .navbar__mobile.active .mobile__links a {
-    padding: 1rem;
+    padding: 2rem 0;
+    font-size: 2rem;
     display: block;
     text-align: center;
   }
