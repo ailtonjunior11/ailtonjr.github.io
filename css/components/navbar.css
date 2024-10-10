@@ -42,6 +42,7 @@
   display: inline-block;
   font-size: 1.8rem;
   color: var(--secondary-color);
+  cursor: pointer;
 }
 
 .navbar .navbar__content .navbar__links a:hover {
